@@ -21,3 +21,23 @@ main#main-page {
     background-color: #0D47A1;
     background-image: linear-gradient(to top, #0D47A1 0%, #2196F3 100%);
 }
+.no-transition {
+    transition: none;
+}
+#sidebar-nav .nav-link {
+    color: #a2a3b7;
+}
+#sidebar-nav .nav-link.active {
+    background: #12121c;
+    color: #ffffff;
+}
+#sidebar-nav .nav-link.active i {
+    color: #3699FF;
+}
+#sidebar-nav .nav-link:hover {
+    background: #12121c;
+    color: #ffffff;
+}
+#sidebar-nav .nav-link:hover i {
+    color: #3699FF;
+}
