@@ -26,11 +26,13 @@ main#main-page {
     transition: none;
     border-radius: 0;
 }
-#sidebar-nav .nav-link.active {
+#sidebar-nav .nav-link.active,
+#sidebar-nav .nav-link.collapse-btn:not(.collapsed) {
     background: #12121c;
     color: #ffffff;
 }
-#sidebar-nav .nav-link.active .nav-item-icon {
+#sidebar-nav .nav-link.active .nav-item-icon,
+#sidebar-nav .nav-link.collapse-btn:not(.collapsed) .nav-item-icon{
     color: #3699FF;
 }
 #sidebar-nav .nav-link:hover {
@@ -40,11 +42,17 @@ main#main-page {
 #sidebar-nav .nav-link:hover .nav-item-icon {
     color: #3699FF;
 }
-ul.sidebar-sub-nav {
+#sidebar-nav .nav-link i.fa-chevron-right {
+    transition-duration: 0.25s;
+}
+#sidebar-nav .nav-link:not(.collapsed) i.fa-chevron-right {
+    transform: rotate(90deg);
+}
+#sidebar-nav ul.sidebar-sub-nav {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-ul.sidebar-sub-nav li a {
+#sidebar-nav ul.sidebar-sub-nav li a {
     padding-left: 45px;
 }
