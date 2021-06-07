@@ -7,8 +7,8 @@ main#main-page {
     height: 100vh;
 }
 .custom-scrollable {
-    overflow-y: scroll;
-    padding-right: 10px;
+    /*overflow-y: scroll;*/
+    /*padding-right: 10px;*/
 }
 .custom-scrollable::-webkit-scrollbar {
     width: 8px;
@@ -24,6 +24,7 @@ main#main-page {
 #sidebar-nav .nav-link {
     color: #a2a3b7;
     transition: none;
+    border-radius: 0;
 }
 #sidebar-nav .nav-link.active {
     background: #12121c;
@@ -38,4 +39,12 @@ main#main-page {
 }
 #sidebar-nav .nav-link:hover .nav-item-icon {
     color: #3699FF;
+}
+ul.sidebar-sub-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.sidebar-sub-nav li a {
+    padding-left: 45px;
 }
