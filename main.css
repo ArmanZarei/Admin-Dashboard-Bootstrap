@@ -7,19 +7,18 @@ main#main-page {
     height: 100vh;
 }
 .custom-scrollable {
-    /*overflow-y: scroll;*/
-    /*padding-right: 10px;*/
+    overflow-y: scroll;
 }
 .custom-scrollable::-webkit-scrollbar {
-    width: 8px;
-}
-.custom-scrollable::-webkit-scrollbar-track {
-    background: #020509;
+    width: 13px;
 }
 .custom-scrollable::-webkit-scrollbar-thumb {
-    border-radius: 1rem;
-    background-color: #0D47A1;
-    background-image: linear-gradient(to top, #0D47A1 0%, #2196F3 100%);
+    border: 5px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    background-color: #637099;
+}
+.custom-scrollable::-webkit-scrollbar-thumb:hover {
+    background-color: #7987b1;
 }
 #sidebar-nav .nav-link {
     color: #a2a3b7;
