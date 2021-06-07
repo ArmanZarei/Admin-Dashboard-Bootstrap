@@ -6,3 +6,18 @@ main#main-page {
     flex-wrap: nowrap;
     height: 100vh;
 }
+.custom-scrollable {
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.custom-scrollable::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scrollable::-webkit-scrollbar-track {
+    background: #020509;
+}
+.custom-scrollable::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #0D47A1;
+    background-image: linear-gradient(to top, #0D47A1 0%, #2196F3 100%);
+}
