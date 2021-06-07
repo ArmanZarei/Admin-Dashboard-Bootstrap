@@ -56,3 +56,14 @@ main#main-page {
 #sidebar-nav ul.sidebar-sub-nav li a {
     padding-left: 45px;
 }
+#sidebar-nav .menu-section {
+    margin: 20px 0 0 0;
+    padding: 0 1rem;
+}
+#sidebar-nav .menu-section h5 {
+    color: #4c4e6f;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
