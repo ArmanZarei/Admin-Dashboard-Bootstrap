@@ -46,7 +46,7 @@ main#main-page {
 }
 #sidebar-nav .nav-link.active,
 #sidebar-nav .nav-link.collapse-btn:not(.collapsed) {
-    background: #161621;
+    background: #1b1b28;
     color: #ffffff;
 }
 #sidebar-nav .nav-link.active .nav-item-icon,
@@ -54,7 +54,7 @@ main#main-page {
     color: #3699FF;
 }
 #sidebar-nav .nav-link:hover {
-    background: #161621;
+    background: #1b1b28;
     color: #ffffff;
 }
 #sidebar-nav .nav-link:hover .nav-item-icon {
