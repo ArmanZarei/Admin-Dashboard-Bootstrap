@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    font-family: "Poppins", var(--bs-font-sans-serif);
 }
 main#main-page {
     display: flex;
@@ -8,7 +9,7 @@ main#main-page {
 }
 #sidebar {
     width: 280px;
-    background: #1E1E2D
+    background: #1E1E2D;
 }
 .custom-scrollable {
     overflow-y: scroll;
@@ -26,6 +27,17 @@ main#main-page {
 }
 .custom-scrollable::-webkit-scrollbar-thumb:hover {
     background-color: #7987b1 !important;
+}
+#sidebar-nav span {
+    font-size: 13px;
+}
+#sidebar-nav a > i:first-of-type {
+    color: #494b74;
+    width: 1.1rem;
+    text-align: center;
+}
+#sidebar-nav a {
+    padding: 10px 16px;
 }
 #sidebar-nav .nav-link {
     color: #a2a3b7;
@@ -76,7 +88,7 @@ main#main-page {
 .sidebar-badge {
     border-radius: 0.42rem;
     padding: 2px 7px;
-    font-size: 11px;
+    font-size: 10px !important;
 }
 .sidebar-blue-badge {
     background: #3699FF;
