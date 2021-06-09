@@ -32,12 +32,14 @@ main#main-page {
     font-size: 13px;
 }
 #sidebar-nav a > i:first-of-type {
-    color: #494b74;
     width: 1.1rem;
     text-align: center;
 }
 #sidebar-nav a {
     padding: 11px 16px;
+}
+#sidebar-nav .nav-link i {
+    color: #494b74;
 }
 #sidebar-nav .nav-link {
     color: #a2a3b7;
@@ -46,6 +48,14 @@ main#main-page {
 }
 #sidebar-nav .nav-link.active,
 #sidebar-nav .nav-link.collapse-btn:not(.collapsed) {
+    background: #1b1b28;
+    color: #ffffff;
+}
+#sidebar-nav .nav-link.active .fa-chevron-right,
+#sidebar-nav .nav-link.collapse-btn:not(.collapsed) .fa-chevron-right {
+    color: #ffffff;
+}
+#sidebar-nav .nav-link:hover .fa-chevron-right {
     background: #1b1b28;
     color: #ffffff;
 }
