@@ -108,3 +108,7 @@ main#main-page {
     background: #F64E60;
     color: #FFF;
 }
+#user-dropdown-menu li a > i {
+    width: 24px;
+    text-align: center;
+}
