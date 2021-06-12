@@ -108,6 +108,14 @@ main#main-page {
     background: #F64E60;
     color: #FFF;
 }
+
+#user-dropdown {
+    padding: 5px 5px 5px 7px;
+    border-radius: 4px;
+}
+#user-dropdown:hover {
+    background: rgba(77, 89, 149, 0.06);
+}
 #user-dropdown-menu li a {
     font-size: 14px;
 }
@@ -115,6 +123,22 @@ main#main-page {
     width: 24px;
     text-align: center;
 }
+#welcome-text {
+    color: #B5B5C3;
+    font-size: 13px;
+}
+#welcome-text span {
+    color: #7E8299;
+    font-weight: 600;
+}
+#user-avatar-substitute {
+    background-color: #C9F7F5;
+    color: #1BC5BD;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
 
 #top-nav li a {
     font-size: 13px;
