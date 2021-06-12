@@ -113,7 +113,8 @@ main#main-page {
     padding: 5px 5px 5px 7px;
     border-radius: 4px;
 }
-#user-dropdown:hover {
+#user-dropdown:hover,
+#user-dropdown.show {
     background: rgba(77, 89, 149, 0.06);
 }
 #user-dropdown-menu li a {
