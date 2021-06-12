@@ -112,3 +112,19 @@ main#main-page {
     width: 24px;
     text-align: center;
 }
+
+#top-nav li a {
+    font-size: 13px;
+    color: #6c7293;
+    font-weight: 500;
+    border-radius: 4px;
+    transition-duration: 0s;
+}
+#top-nav li:not(:last-of-type) {
+    margin-right: 7px;
+}
+#top-nav li a.active,
+#top-nav li a:hover {
+    background: rgba(77, 89, 149, 0.06);
+    color: #3699FF;
+}
