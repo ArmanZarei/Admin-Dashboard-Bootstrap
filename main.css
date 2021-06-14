@@ -197,6 +197,14 @@ main#main-page {
     color: #3699FF;
 }
 
+.card-header {
+    font-size: 18px;
+    border-bottom: 1.5px solid;
+    border-bottom-color: #EEF0F8;
+    padding: 15px 20px;
+    color: #181C32;
+}
+
 /************** General ******************/
 .no-duration {
     transition-duration: 0s;
