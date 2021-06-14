@@ -213,6 +213,7 @@ main#main-page {
 .btn-style-1 {
     font-size: 13px;
     font-weight: 500;
+    box-shadow: none !important;
 }
 .btn-light-success {
     color: #1BC5BD;
