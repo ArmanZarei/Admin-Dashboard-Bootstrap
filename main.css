@@ -196,3 +196,53 @@ main#main-page {
     background: rgba(77, 89, 149, 0.06);
     color: #3699FF;
 }
+
+/************** General ******************/
+.no-duration {
+    transition-duration: 0s;
+}
+/************** Button Styles ***************/
+.btn-style-1 {
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn-light-success {
+    color: #1BC5BD;
+    background-color: #C9F7F5;
+}
+.btn-light-success:hover {
+    color: #ffffff;
+    background-color: #1BC5BD;
+}
+.btn-light-primary {
+    color: #3699FF;
+    background-color: #E1F0FF;
+}
+.btn-light-primary:hover {
+    color: #FFFFFF;
+    background-color: #3699FF;
+}
+.btn-light-danger {
+    color: #F64E60;
+    background-color: #FFE2E5;
+}
+.btn-light-danger:hover {
+    color: #ffffff;
+    background-color: #F64E60;
+}
+.btn-light-warning {
+    color: #FFA800;
+    background-color: #FFF4DE;
+}
+.btn-light-warning:hover {
+    color: #ffffff;
+    background-color: #FFA800;
+}
+.btn-light-dark {
+    color: #181C32;
+    background-color: #D1D3E0;
+}
+.btn-light-dark:hover {
+    color: #ffffff;
+    background-color: #181C32;
+}
