@@ -205,6 +205,42 @@ main#main-page {
     color: #181C32;
 }
 
+/************** Tab ****************/
+.tab-container .nav-tabs:first-of-type {
+    border-bottom: 3px solid #EEF0F8;
+}
+.tab-container .nav-link {
+    color: #7E8299;
+    border: none;
+    margin: 0 0 0 30px !important;
+    position: relative;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 500 !important;
+}
+
+.tab-container .nav-link.active {
+    color: #3699FF;
+    background: none;
+    margin: 0;
+}
+.tab-container .nav-link:hover {
+    color: #3699FF;
+}
+.tab-container .nav-link.active:after,
+.tab-container .nav-link:hover:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #3699FF;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+.tab-container .tab-pane {
+    padding: 30px;
+}
+
 /************** General ******************/
 .no-duration {
     transition-duration: 0s;
