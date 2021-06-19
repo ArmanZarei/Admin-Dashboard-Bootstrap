@@ -205,6 +205,31 @@ main#main-page {
     color: #181C32;
 }
 
+/************** Accordions ****************/
+.custom-accordion .accordion-item {
+    border: 1px solid #EBEDF3;
+}
+
+.custom-accordion .accordion-button {
+    box-shadow: none;
+    color: #3F4254;
+    background-color: #F3F6F9;
+    font-weight: 500;
+}
+
+.custom-accordion .accordion-button i {
+    font-size: 20px;
+    color: #B5B5C3;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.custom-accordion .accordion-button:not(.collapsed),
+.custom-accordion .accordion-button:not(.collapsed) i {
+    color: #3699FF;
+}
+
 /************** Tab ****************/
 .tab-container .nav-tabs:first-of-type {
     border-bottom: 2px solid #EEF0F8;
