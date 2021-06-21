@@ -225,6 +225,10 @@ main#main-page {
     margin-right: 10px;
 }
 
+.custom-accordion .accordion-button span {
+    font-size: 14px;
+}
+
 .custom-accordion .accordion-button:not(.collapsed),
 .custom-accordion .accordion-button:not(.collapsed) i {
     color: #3699FF;
