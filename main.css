@@ -403,3 +403,37 @@ main#main-page {
 .floating-label-container input:focus + label {
     color: #3699FF;
 }
+
+
+/************** Table ***************/
+.custom-table thead th {
+    color: #B5B5C3;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: none;
+}
+.custom-table thead {
+    border: none;
+}
+.custom-table tr {
+    border-bottom: 1px solid #EBEDF3;
+}
+.custom-table tbody td {
+    font-size: 13px;
+    padding: 16px 8px;
+    color: #3F4254;
+    vertical-align: middle;
+}
+.custom-table .cell-actions i {
+    font-size: 16px;
+    color: #8c8c94;
+    margin-right: 5px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.custom-table .cell-actions i:hover {
+    color: #3699FF;
+    background: #F3F6F9;
+}
