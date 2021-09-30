@@ -391,6 +391,7 @@ main#main-page {
     z-index: 0;
     transition-duration: 0.1s;
     color: #B5B5C3;
+    pointer-events: none;
 }
 .floating-label-container input:focus {
     border: 2px solid #3699FF;
