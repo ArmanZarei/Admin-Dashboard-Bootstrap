@@ -358,7 +358,10 @@ main#main-page {
 }
 
 /************** Form ***************/
-.custom-form input {
+.custom-form {
+    color: #3F4254;
+}
+.custom-form input[type='text'], input[type='email'], input[type='password'] {
     border: 2px solid #cfcfd9;
     outline: none;
 }
@@ -404,6 +407,40 @@ main#main-page {
     color: #3699FF;
 }
 
+/************** IOS Button ***************/
+.ios-button {
+    appearance: none;
+    border: none;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: #e7e7e7;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    user-select: none;
+    /* box-shadow: 0px 0px 5px #9E9E9E; */
+}
+.ios-button::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    top: 3px;
+    left: 3px;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 5px #9E9E9E;
+}
+.ios-button:checked::after {
+    left: calc(100% - 24px - 3px);
+    box-shadow: 0px 0px 5px #12467c;
+}
+.ios-button:checked {
+    background: #3699FF;
+}
 
 /************** Table ***************/
 .custom-table thead th {
